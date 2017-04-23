@@ -1,4 +1,5 @@
 ## R Hariharan
-#### 3rd Year in Computer Science and Engineering
+#### 3rd Year
+#### Computer Science and Engineering
 #### PES University
 #### Bangalore
