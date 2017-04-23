@@ -3,6 +3,10 @@
 \usepackage{graphicx}
 \usepackage{ulem}
 \usepackage{lipsum}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcommand\textbox[1]{%
 	\parbox{.500\textwidth}{#1}%
 }
@@ -12,17 +16,24 @@
 		\bfseries \LARGE R Hariharan
 	\end{center}
 	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\noindent\textbox{\small 2E-604,\hfill}\textbox{\hfill \small \textbf{Contact} : 8792461472}
-	
-	\noindent\textbox{\small DOS Housing Colony,\hfill}\textbox{\hfill \small \textbf{E-mail id} : rhariharan3096@gmail.com}
-	
-	\noindent\textbox{\small Jalahalli,}
-
-	\noindent\textbox{\small Bangalore 560013}
-	
+	\noindent\textbox{\small 2E-604,\hfill}\textbox{\hfill \small \textbf{Contact} : 8792461472}\\	
+	\noindent\textbox{\small DOS Housing Colony,\hfill}\textbox{\hfill \small \textbf{E-mail id} : rhariharan3096@gmail.com}\\	
+	\noindent\textbox{\small Jalahalli,}\\
+	\noindent\textbox{\small Bangalore 560013}\\	
 	\begin{figure}[h]
 		\noindent\textbox{\hfill}\textbox{\hfill \includegraphics[width=100px]{PASS4.jpg}}
-	\end{figure}
-	
-	
+	\end{figure}\\	
+	\begin{tabular}{L{4cm} cc l}
+		\textbf{\large OBJECTIVE} &&& \\\\
+		\textbf{\large EDUCATION} &&& \\\\
+		\textbf{\large PROJECTS} &&& \\\\
+		\textbf{\large TRAINING \& INTERNSHIP} &&& \\\\
+		\textbf{\large TECHNICAL SKILLS} &&& \\\\
+		\textbf{\large SOFT SKILLS} &&& \\\\
+		\textbf{\large EXTRA-CURRICULAR ACTIVITIES} &&& \\\\
+		\textbf{\large PERSONAL DETAILS} &&& \\\\
+		\textbf{\large REFERENCE} &&& \\\\
+		\textbf{\large DECLARATION} &&& \\\\
+		\textbf{\large DATE} &&& \\
+	\end{tabular}
 \end{document}
