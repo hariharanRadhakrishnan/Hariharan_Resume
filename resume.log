@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  23 APR 2017 21:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  23 APR 2017 21:57
 entering extended mode
 **resume.tex
 (F:\Hariharan_Resume\resume.tex
@@ -174,25 +174,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
+ <PASS4.jpg, id=1, 254.9525pt x 254.9525pt>
+File: PASS4.jpg Graphic file (type jpg)
+ <use PASS4.jpg>
+Package pdftex.def Info: PASS4.jpg used on input line 24.
+(pdftex.def)             Requested size: 100.37537pt x 100.37639pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Hariharan_Resume/PASS4
+.jpg>]
 (F:\Hariharan_Resume\resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1880 strings out of 493921
- 25135 string characters out of 3144865
+ 1888 strings out of 493921
+ 25227 string characters out of 3144865
  170726 words of memory out of 3000000
- 5193 multiletter control sequences out of 15000+200000
- 7396 words of font info for 27 fonts, out of 3000000 for 9000
+ 5198 multiletter control sequences out of 15000+200000
+ 7704 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,4n,21p,235b,109s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,21p,235b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb>
-Output written on resume.pdf (1 page, 35012 bytes).
+1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb>
+Output written on resume.pdf (1 page, 97630 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
