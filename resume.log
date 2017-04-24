@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  24 APR 2017 22:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  24 APR 2017 22:18
 entering extended mode
 **resume.tex
 (F:\Hariharan_Resume\resume.tex
@@ -1036,7 +1036,23 @@ ckathon
 
 Package flowfram Warning: Moving to flow frame of unequal width,
 (flowfram)                use of \framebreak advised, or text might not appear 
-correctly on input line 249.
+correctly on input line 242.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4
+
+]
+
+Package flowfram Warning: Moving to flow frame of unequal width,
+(flowfram)                use of \framebreak advised, or text might not appear 
+correctly on input line 256.
 
 (F:\Hariharan_Resume\resume.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1052,9 +1068,9 @@ dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/c
 harter/bchb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/chart
 er/bchr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on resume.pdf (3 pages, 101274 bytes).
+Output written on resume.pdf (4 pages, 102090 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
