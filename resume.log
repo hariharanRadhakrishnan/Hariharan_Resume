@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  24 APR 2017 21:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  24 APR 2017 21:38
 entering extended mode
 **resume.tex
 (F:\Hariharan_Resume\resume.tex
@@ -1003,26 +1003,34 @@ Overfull \hbox (0.86543pt too wide) in paragraph at lines 186--188
 obe
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
+
+ []
+
 [2
 
 ]
 
 Package flowfram Warning: Moving to flow frame of unequal width,
 (flowfram)                use of \framebreak advised, or text might not appear 
-correctly on input line 203.
+correctly on input line 197.
 
 
-Package flowfram Warning: Moving to flow frame of unequal width,
-(flowfram)                use of \framebreak advised, or text might not appear 
-correctly on input line 214.
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
-[3
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
 
 ]
 
 Package flowfram Warning: Moving to flow frame of unequal width,
 (flowfram)                use of \framebreak advised, or text might not appear 
-correctly on input line 214.
+correctly on input line 228.
 
 (F:\Hariharan_Resume\resume.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1038,7 +1046,7 @@ dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/c
 harter/bchb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/chart
 er/bchr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on resume.pdf (3 pages, 98985 bytes).
+Output written on resume.pdf (3 pages, 100195 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
