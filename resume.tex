@@ -5,6 +5,9 @@
 \usepackage{ulem}
 \usepackage{lipsum}
 \usepackage{array}
+\usepackage{longtable}
+\usepackage{color, colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
 \usepackage{tabularx,booktabs}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -28,9 +31,25 @@
 	\begin{figure}[h]
 		\noindent\textbox{\hfill}\textbox{\hfill \includegraphics[width=80px]{PASS4.jpg}}
 	\end{figure}\\	
-	\begin{tabularx}{\textwidth}{L{3cm} cc l}
-		\textbf{OBJECTIVE} &&& \noindent\textboxnew{Understand laws governing our universe and apply it to intelligent systems, in order to make our lives easier.} \\\\
-		\textbf{EDUCATION} &&& \\\\
+	\begin{longtable}{L{3cm} cc l}
+		\textbf{OBJECTIVE} &&& \noindent\textboxnew{Understanding the laws governing our universe and applying it to intelligent systems, in order to make our lives easier.} \\\\\\
+		\textbf{EDUCATION} &&& 
+								\def\arraystretch{1.5}
+								\begin{tabular}{C{2cm} C{3cm} C{3cm} C{2cm} C{2.5cm} }
+									\hline
+									\hline
+									\rowcolor{LightCyan}
+									 \textbf{Degree} & \textbf{Discipline} & \textbf{Institution} &  \textbf{Score} & \textbf{Year of Graduation}\\
+									\hline
+									\hline
+									B.Tech & Computer Science and Engineering (3rd Year) & PES University & 9.28/10 & 2018 \\
+									\hline
+									Pre-University & 12th Std. & K.L.E Society’s Independent PU college & 92.5\% & 2014\\
+									\hline
+									All India Secondary School Examination (AISSE) & 10th Std. & Kendriya Vidyalaya IISc & 10/10 & 10/10\\
+									\hline
+									\hline
+								\end{tabular}\\\\
 		\textbf{PROJECTS} &&& \\\\
 		\textbf{TRAINING \& INTERNSHIP} &&& \\\\
 		\textbf{TECHNICAL SKILLS} &&& \\\\
@@ -40,5 +59,5 @@
 		\textbf{REFERENCE} &&& \\\\
 		\textbf{DECLARATION} &&& \\\\
 		\textbf{DATE} &&& \\
-	\end{tabularx}
+	\end{longtable}
 \end{document}
