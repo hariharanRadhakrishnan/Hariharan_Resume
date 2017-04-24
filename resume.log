@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  24 APR 2017 20:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2017.3.9)  24 APR 2017 20:18
 entering extended mode
 **resume.tex
 (F:\Hariharan_Resume\resume.tex
@@ -846,19 +846,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \col@ii@evenx=\skip262
 \col@ii@eveny=\skip263
  (F:\Hariharan_Resume\resume.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Try loading font information for OT1+bch on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 85.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1bch.fd"
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
@@ -915,12 +915,12 @@ ABD: EveryShipout initializing macros
 <PASS4.jpg, id=4, 254.9525pt x 254.9525pt>
 File: PASS4.jpg Graphic file (type jpg)
  <use PASS4.jpg>
-Package pdftex.def Info: PASS4.jpg used on input line 88.
+Package pdftex.def Info: PASS4.jpg used on input line 90.
 (pdftex.def)             Requested size: 86.49538pt x 86.49596pt.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 95.
 
-Overfull \hbox (27.11343pt too wide) in paragraph at lines 99--99
+Overfull \hbox (27.11343pt too wide) in paragraph at lines 101--101
 []\OT1/bch/m/n/10.95 rhariharan3096@gmail.com  
  []
 
@@ -928,41 +928,65 @@ Overfull \hbox (27.11343pt too wide) in paragraph at lines 99--99
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 110.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 111.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 115.
-[1
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 117.
+Missing character: There is no â in font bchr7t!
+Missing character: There is no € in font bchr7t!
+Missing character: There is no ™ in font bchr7t!
+
+Overfull \hbox (11.6321pt too wide) in paragraph at lines 124--139
+[][]
+ []
+
+
+Underfull \vbox (badness 6608) has occurred while \output is active []
+
+ [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Hariharan_Resume/PASS4
 .jpg>]
 
 Package flowfram Warning: Moving to flow frame of unequal width,
 (flowfram)                use of \framebreak advised, or text might not appear 
-correctly on input line 159.
+correctly on input line 165.
+
+
+Package flowfram Warning: Moving to flow frame of unequal width,
+(flowfram)                use of \framebreak advised, or text might not appear 
+correctly on input line 176.
+
+[2
+
+]
+
+Package flowfram Warning: Moving to flow frame of unequal width,
+(flowfram)                use of \framebreak advised, or text might not appear 
+correctly on input line 176.
 
 (F:\Hariharan_Resume\resume.aux) ) 
 Here is how much of TeX's memory you used:
- 14620 strings out of 493921
- 254029 string characters out of 3144865
- 358105 words of memory out of 3000000
- 17690 multiletter control sequences out of 15000+200000
- 17778 words of font info for 37 fonts, out of 3000000 for 9000
+ 14627 strings out of 493921
+ 254098 string characters out of 3144865
+ 361204 words of memory out of 3000000
+ 17696 multiletter control sequences out of 15000+200000
+ 19050 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  61i,16n,55p,397b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/
 dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/c
 harter/bchb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/chart
 er/bchr8a.pfb>
-Output written on resume.pdf (1 page, 82320 bytes).
+Output written on resume.pdf (2 pages, 85363 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
+ 22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

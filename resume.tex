@@ -57,7 +57,9 @@
 \addtolength{\LeftMainSep}{1.5pt}
 \addtolength{\LeftMainSep}{1\columnsep}
 \newflowframe{0.7\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
-
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % define macros (for convience)
@@ -118,6 +120,21 @@
 	
 	% Education
 	\CVSection{Education}
+	\def\arraystretch{1.5}
+	\begin{tabular}{C{2cm} C{3cm} C{2.3cm} C{2cm} C{2.3cm}}
+		\hline
+		\hline
+		\textbf{Degree} & \textbf{Discipline} & \textbf{Institution} &  \textbf{Score} & \textbf{Year of Graduation}\\
+		\hline
+		\hline
+		B.Tech & Computer Science and Engineering (3rd Year) & PES University & 9.28/10 & 2018 \\
+		\hline
+		Pre-University & 12th Std. & K.L.E Society’s Independent PU college & 92.5\% & 2014\\
+		\hline
+		All India Secondary School Examination (AISSE) & 10th Std. & Kendriya Vidyalaya IISc & 10/10 & 10/10\\
+		\hline
+		\hline
+	\end{tabular}
 	\Sep
 	
 	\CVSection{Projects}
