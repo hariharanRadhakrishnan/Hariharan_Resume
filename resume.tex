@@ -1,81 +1,159 @@
-\documentclass[a4paper,12pt,final]{article}
-\pagenumbering{gobble}
-\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry}
-\usepackage{graphicx}
-\usepackage{ulem}
-\usepackage{lipsum}
-\usepackage{array}
-\usepackage{longtable}
-\usepackage{color, colortbl}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{multicol}
-\definecolor{LightCyan}{rgb}{0.88,1,1}
-\usepackage{tabularx,booktabs}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcommand\textbox[1]{%
-	\parbox{.500\textwidth}{#1}%
-}
-\newcommand\textboxnew[1]{%
-	\parbox{.755\textwidth}{#1}%
-}
-\newcommand\textboxnewz[1]{%
-	\parbox{.700\textwidth}{#1}%
-}
-\title{R Hariharan}
+%%% LaTeX Template: Designer's CV
+%%%
+%%% Source: http://www.howtotex.com/
+%%% Feel free to distribute this template, but please keep the referal to HowToTeX.com.
+%%% Date: March 2012
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document properties and packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,final]{memoir}
+
+% misc
+\renewcommand{\familydefault}{bch}	% font
+\pagestyle{empty}					% no pagenumbering
+\setlength{\parindent}{0pt}			% no paragraph indentation
+
+
+% required packages (add your own)
+\usepackage{flowfram}										% column layout
+\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry}% margins
+\usepackage{graphicx}										% figures
+\usepackage{url}											% URLs
+\usepackage[usenames,dvipsnames]{xcolor}					% color
+\usepackage{multicol}										% columns env.
+\setlength{\multicolsep}{0pt}
+\usepackage{paralist}										% compact lists
+\usepackage{tikz}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create column layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define length commands
+\setlength{\vcolumnsep}{\baselineskip}
+\setlength{\columnsep}{\vcolumnsep}
+
+% frame setup (flowfram package)
+% left frame
+\newflowframe{0.2\textwidth}{\textheight}{0pt}{0pt}[left]
+\newlength{\LeftMainSep}
+\setlength{\LeftMainSep}{0.21\textwidth}
+\addtolength{\LeftMainSep}{2\columnsep}
+
+% small static frame for the vertical line
+\newstaticframe{1.5pt}{\textheight}{\LeftMainSep}{0pt}
+
+% content of the static frame
+\begin{staticcontents}{1}
+	\hfill
+	\tikz{%
+		\draw[loosely dotted,color=RoyalBlue,line width=1.5pt,yshift=0]
+		(0,0) -- (0,\textheight);}%
+	\hfill\mbox{}
+\end{staticcontents}
+
+% right frame
+\addtolength{\LeftMainSep}{1.5pt}
+\addtolength{\LeftMainSep}{1\columnsep}
+\newflowframe{0.7\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define macros (for convience)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Sep}{\vspace{1.5em}}
+\newcommand{\SmallSep}{\vspace{0.5em}}
+
+\newenvironment{AboutMe}
+{\ignorespaces\textbf{\color{RoyalBlue} About me}}
+{\Sep\ignorespacesafterend}
+
+\newcommand{\CVSection}[1]
+{\Large\textbf{#1}\par
+	\SmallSep\normalsize\normalfont}
+
+\newcommand{\CVItem}[1]
+{\textbf{\color{RoyalBlue} #1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-	\begin{center}
-		\bfseries \LARGE R Hariharan
-	\end{center}
-	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\noindent\textbox{\small 2E-604,\hfill}\textbox{\hfill \small \textbf{Contact} : +91 8792461472}\\	
-	\noindent\textbox{\small DOS Housing Colony,\hfill}\textbox{\hfill \small \textbf{E-mail id} : rhariharan3096@gmail.com}\\	
-	\noindent\textbox{\small Jalahalli,}\\
-	\noindent\textbox{\small Bangalore 560013}\\	
-	\begin{figure}[h]
-		\noindent\textbox{\hfill}\textbox{\hfill \includegraphics[width=80px]{PASS4.jpg}}
-	\end{figure}\\	
-	\begin{longtable}{L{3cm} cc L{18cm}}
-		\textbf{OBJECTIVE} &&& \begin{tabular}[t]{l} \noindent\textboxnew{Understanding the laws governing our universe and applying it to intelligent systems, in order to make our lives easier.} \end{tabular} \\\\\\
-		\textbf{EDUCATION} &&& 
-								\def\arraystretch{1.5}
-								\begin{tabular}{C{2cm} C{3cm} C{3cm} C{2cm} C{2.5cm} }
-									\hline
-									\hline
-									\rowcolor{LightCyan}
-									 \textbf{Degree} & \textbf{Discipline} & \textbf{Institution} &  \textbf{Score} & \textbf{Year of Graduation}\\
-									\hline
-									\hline
-									B.Tech & Computer Science and Engineering (3rd Year) & PES University & 9.28/10 & 2018 \\
-									\hline
-									Pre-University & 12th Std. & K.L.E Society’s Independent PU college & 92.5\% & 2014\\
-									\hline
-									All India Secondary School Examination (AISSE) & 10th Std. & Kendriya Vidyalaya IISc & 10/10 & 10/10\\
-									\hline
-									\hline
-								\end{tabular}\\\\
-		\textbf{PROJECTS} &&& \begin{enumerate}
-			\item \textbf{HaveASeat - Static website for information on movies} \newline
-			\noindent\textboxnewz{Course: Web Development-1}\newline
-			\noindent\textboxnewz{Supervisor: Ms. Vidhu Rojith, Assistant Professor, CSE Dept, PES University} \newline
-			\noindent\textboxnewz{Abstract: Stylish website that provides information on movies (‘Movie Description’, ‘Review’ and ‘Rating’). All movies are separated based on the language. Used HTML5, CSS, JavaScript and PHP to build the website.}
-			\item \textbf{Music Player} \newline
-			\noindent\textboxnewz{Course: Data Structures using JAVA}\newline
-			\noindent\textboxnewz{Supervisor: Ms. Priya Badrinath, Assistant Professor, CSE Dept, PES University} \newline
-			\noindent\textboxnewz{Abstract: JAVA application that provides users with essential features of a music player such as PLAY/PAUSE/STOP, NEXT/PREVIOUS, SEEK, REPEAT and SHUFFLE ALL. Implemented using doubly linked data structure.}
-			\item The third
-		\end{enumerate}\\\\
-		\textbf{TRAINING \& INTERNSHIP} &&& \\\\
-		\textbf{TECHNICAL SKILLS} &&& \\\\
-		\textbf{SOFT SKILLS} &&& \\\\
-		\textbf{EXTRA-CURRICULAR ACTIVITIES} &&& \\\\
-		\textbf{PERSONAL DETAILS} &&& \\\\
-		\textbf{REFERENCE} &&& \\\\
-		\textbf{DECLARATION} &&& \\\\
-		\textbf{DATE} &&& \\
-	\end{longtable}
+	
+	% Left frame
+	%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}
+		\includegraphics[width=0.8\columnwidth]{PASS4.jpg}
+		\vspace{-7cm}
+	\end{figure}
+	
+	\begin{flushleft}\small
+		\textbf{Address:} \\
+		2E-604, \\
+		DOS Housing Colony,
+		Jalahalli, \\
+		Bangalore 560013\\
+		\textbf{Email-Id:} \\
+		rhariharan3096@gmail.com  \\
+		\textbf{Contact:}\\
+		+91 8792461472
+	\end{flushleft}\normalsize
+	\framebreak
+	
+	
+	% Right frame
+	%%%%%%%%%%%%%%%%%%%%
+	\Huge\bfseries {\color{RoyalBlue} R Hariharan} \\
+	\small\bfseries B.Tech in Computer Science and Engineering \\
+	
+	\normalsize\normalfont
+	
+	
+	% Experience
+	\CVSection{Objective}
+	To understand the laws governing our universe and apply it to intelligent systems, in order to make our lives easier.
+	\Sep
+	
+	% Education
+	\CVSection{Education}
+	\Sep
+	
+	\CVSection{Projects}
+	\Sep
+	
+	% Skills
+	\CVSection{Skills}
+	\Sep 
+	
+	\CVSection{Training \& Internship}
+	\Sep
+	
+	\CVSection{Technical Skills}
+	\Sep
+	
+	\CVSection{Soft Skills}
+	\Sep
+	
+	\CVSection{Extra-Curricular Activities}
+	\Sep
+	
+	\CVSection{Personal Details}
+	\Sep
+
+	% References
+	\CVSection{References}
+	\Sep
+		
+	\CVSection{Declaration}
+	\Sep
+	
+	\CVSection{Date}
+	\Sep
 
 	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% End document
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
