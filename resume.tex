@@ -1,14 +1,19 @@
 \documentclass[a4paper,12pt,final]{article}
+\pagenumbering{gobble}
 \usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry}
 \usepackage{graphicx}
 \usepackage{ulem}
 \usepackage{lipsum}
 \usepackage{array}
+\usepackage{tabularx,booktabs}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcommand\textbox[1]{%
 	\parbox{.500\textwidth}{#1}%
+}
+\newcommand\textboxnew[1]{%
+	\parbox{.755\textwidth}{#1}%
 }
 \title{R Hariharan}
 \begin{document}
@@ -21,19 +26,19 @@
 	\noindent\textbox{\small Jalahalli,}\\
 	\noindent\textbox{\small Bangalore 560013}\\	
 	\begin{figure}[h]
-		\noindent\textbox{\hfill}\textbox{\hfill \includegraphics[width=100px]{PASS4.jpg}}
+		\noindent\textbox{\hfill}\textbox{\hfill \includegraphics[width=80px]{PASS4.jpg}}
 	\end{figure}\\	
-	\begin{tabular}{L{4cm} cc l}
-		\textbf{\large OBJECTIVE} &&& \\\\
-		\textbf{\large EDUCATION} &&& \\\\
-		\textbf{\large PROJECTS} &&& \\\\
-		\textbf{\large TRAINING \& INTERNSHIP} &&& \\\\
-		\textbf{\large TECHNICAL SKILLS} &&& \\\\
-		\textbf{\large SOFT SKILLS} &&& \\\\
-		\textbf{\large EXTRA-CURRICULAR ACTIVITIES} &&& \\\\
-		\textbf{\large PERSONAL DETAILS} &&& \\\\
-		\textbf{\large REFERENCE} &&& \\\\
-		\textbf{\large DECLARATION} &&& \\\\
-		\textbf{\large DATE} &&& \\
-	\end{tabular}
+	\begin{tabularx}{\textwidth}{L{3cm} cc l}
+		\textbf{OBJECTIVE} &&& \noindent\textboxnew{Understand laws governing our universe and apply it to intelligent systems, in order to make our lives easier.} \\\\
+		\textbf{EDUCATION} &&& \\\\
+		\textbf{PROJECTS} &&& \\\\
+		\textbf{TRAINING \& INTERNSHIP} &&& \\\\
+		\textbf{TECHNICAL SKILLS} &&& \\\\
+		\textbf{SOFT SKILLS} &&& \\\\
+		\textbf{EXTRA-CURRICULAR ACTIVITIES} &&& \\\\
+		\textbf{PERSONAL DETAILS} &&& \\\\
+		\textbf{REFERENCE} &&& \\\\
+		\textbf{DECLARATION} &&& \\\\
+		\textbf{DATE} &&& \\
+	\end{tabularx}
 \end{document}
