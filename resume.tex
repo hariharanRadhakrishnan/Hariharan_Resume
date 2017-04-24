@@ -7,6 +7,9 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{color, colortbl}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{multicol}
 \definecolor{LightCyan}{rgb}{0.88,1,1}
 \usepackage{tabularx,booktabs}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -18,21 +21,24 @@
 \newcommand\textboxnew[1]{%
 	\parbox{.755\textwidth}{#1}%
 }
+\newcommand\textboxnewz[1]{%
+	\parbox{.700\textwidth}{#1}%
+}
 \title{R Hariharan}
 \begin{document}
 	\begin{center}
 		\bfseries \LARGE R Hariharan
 	\end{center}
 	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\noindent\textbox{\small 2E-604,\hfill}\textbox{\hfill \small \textbf{Contact} : 8792461472}\\	
+	\noindent\textbox{\small 2E-604,\hfill}\textbox{\hfill \small \textbf{Contact} : +91 8792461472}\\	
 	\noindent\textbox{\small DOS Housing Colony,\hfill}\textbox{\hfill \small \textbf{E-mail id} : rhariharan3096@gmail.com}\\	
 	\noindent\textbox{\small Jalahalli,}\\
 	\noindent\textbox{\small Bangalore 560013}\\	
 	\begin{figure}[h]
 		\noindent\textbox{\hfill}\textbox{\hfill \includegraphics[width=80px]{PASS4.jpg}}
 	\end{figure}\\	
-	\begin{longtable}{L{3cm} cc l}
-		\textbf{OBJECTIVE} &&& \noindent\textboxnew{Understanding the laws governing our universe and applying it to intelligent systems, in order to make our lives easier.} \\\\\\
+	\begin{longtable}{L{3cm} cc L{18cm}}
+		\textbf{OBJECTIVE} &&& \begin{tabular}[t]{l} \noindent\textboxnew{Understanding the laws governing our universe and applying it to intelligent systems, in order to make our lives easier.} \end{tabular} \\\\\\
 		\textbf{EDUCATION} &&& 
 								\def\arraystretch{1.5}
 								\begin{tabular}{C{2cm} C{3cm} C{3cm} C{2cm} C{2.5cm} }
@@ -50,7 +56,17 @@
 									\hline
 									\hline
 								\end{tabular}\\\\
-		\textbf{PROJECTS} &&& \\\\
+		\textbf{PROJECTS} &&& \begin{enumerate}
+			\item \textbf{HaveASeat - Static website for information on movies} \newline
+			\noindent\textboxnewz{Course: Web Development-1}\newline
+			\noindent\textboxnewz{Supervisor: Ms. Vidhu Rojith, Assistant Professor, CSE Dept, PES University} \newline
+			\noindent\textboxnewz{Abstract: Stylish website that provides information on movies (‘Movie Description’, ‘Review’ and ‘Rating’). All movies are separated based on the language. Used HTML5, CSS, JavaScript and PHP to build the website.}
+			\item \textbf{Music Player} \newline
+			\noindent\textboxnewz{Course: Data Structures using JAVA}\newline
+			\noindent\textboxnewz{Supervisor: Ms. Priya Badrinath, Assistant Professor, CSE Dept, PES University} \newline
+			\noindent\textboxnewz{Abstract: JAVA application that provides users with essential features of a music player such as PLAY/PAUSE/STOP, NEXT/PREVIOUS, SEEK, REPEAT and SHUFFLE ALL. Implemented using doubly linked data structure.}
+			\item The third
+		\end{enumerate}\\\\
 		\textbf{TRAINING \& INTERNSHIP} &&& \\\\
 		\textbf{TECHNICAL SKILLS} &&& \\\\
 		\textbf{SOFT SKILLS} &&& \\\\
@@ -60,4 +76,6 @@
 		\textbf{DECLARATION} &&& \\\\
 		\textbf{DATE} &&& \\
 	\end{longtable}
+
+	
 \end{document}
